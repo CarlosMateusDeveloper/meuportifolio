@@ -32,7 +32,7 @@ min-width: 100vh;}
 .logo:hover{ color: #0f02a7!important;}
 
 .brand{
-    margin-left: 36px;
+    margin-left: 95px;
     margin-top: 3px;
     cursor: pointer;
 }
@@ -40,12 +40,15 @@ min-width: 100vh;}
 .brand:hover,.brand:hover i, .brand:hover p { color: #0254ac!important;}
 
 .navbar-nav{
-    margin-left: 51px;
     font-family: Lobster;
     font-size: 14.4px;
 }
 
 .first-content{width: 80%;}
+
+.first-content div img{
+    width: 85%;
+}
 
 .title-principal{
     font-family:Rubik ;
@@ -73,8 +76,20 @@ min-width: 100vh;}
 
 .img-main{
     margin-left: 8px;
-    height: 90vh;
-    width: 59vh;
+    min-height: 90vh;
+   width: 59vh;
+}
+
+.principal{
+    height: 67vh;
+}
+
+.principal p{
+    width: 70%;
+}
+
+.principal button{
+    width: 25%;
 }
 
 main{ margin: 5rem 0rem 10rem 0rem;}
@@ -221,4 +236,56 @@ main{ margin: 5rem 0rem 10rem 0rem;}
   .icon-social{
     color: #dd2476;
   }
+
+  @media (max-width:320px){
+
+    .first-content{
+        display: flex;
+        flex-direction: column;
+  } 
+
+  nav div a i{
+    font-size: px;
+  }
+  .author{
+    font-size: 2.1em ;
+  }
+
+  /*main*/
+    main div{
+        display: flex;
+        flex-direction: column  ;
+    
+    }
+    .text-main{
+        position: static;
+    }
+
+    .achievements{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-rect{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rect{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .text-main{
+        min-width: 100%;
+        position: static;
+    }
+    .purchase{
+        display: flex;
+        flex-direction: column;
+    }
+}
   

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Book-copy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="site5.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -13,16 +13,19 @@
     crossorigin="anonymous">
 </head>
 <body>
-    <header class="header vh-100">
-      <div class="container-fluit p-0"></div>
-        <nav class="navbar navbar-expand-lg bg-body-transparent vh-10 container pt-3">
-            <div class="container-fluid p-0">
-              <a class="brand text-decoration-none d-flex col-6 text-start"  href="#"> <i class="fa-solid fa-book-open-reader mx-3 logo"></i> <p class="book">Books </p></a>
+    <header class="header min-vh-100">
+      <div class="container p-0"></div>
+        <nav class="navbar navbar-expand-lg bg-body-transparent min-vh-10 pt-3">
+            <div class="container-fluid p-0 d-flex justify-content-between">
+              <a class="brand text-decoration-none d-flex col-md-6 col-sm-12 text-start ps-5"  href="#"> 
+                <i class="fa-solid fa-book-open-reader mx-3 logo"></i> 
+                <p class="book">Books </p>
+              </a>
               <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                   <ul class="navbar-nav d-flex gap-4 mb-2  ">
+                   <ul class="navbar-nav d-flex gap-4 mb-3  ">
                      <li class="nav-item">
                        <a class="nav-link active text-white " aria-current="page" href="#">HOME</a>
                      </li>
@@ -45,19 +48,19 @@
               </div>
             </div>
           </nav>
-        <!--segunda-->
+        
         <div class="first-content d-flex container ">
-          <div class="principal row col-md-7 col-sm-12 d-flex align-items-center flex-column justify-content-center text-white mt-4 flex-wrap">
-            <h6 class="author col-md-7 col-sm-12 fw-normal my-4 ">AUTHOR: DAILY TUITION</h6>
-            <h1 class="title-principal  col-md-7 col-xs-12 display-2 fw-semibold mb-3"><strong>EXCITING ADVENTURE</strong><h1>
-              <p class="text-center col-md-7 col-sm-12 w-75 fw-normal lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusamus eum dignissimos ipsa sequi expedita.</p>
-            <button class="btn  btn-light px-5 py-2 primary-btn rounded-5 fw-bold col-md-7 col-xs-12">Compre por R$9,99<button>
+          <div class="principal row col-md-8 col-sm-12 d-flex align-items-center flex-column justify-content-center text-white mt-4">
+            <h6 class="author col-md-7 col-sm-12 fw-normal my-4 text-center">AUTHOR: DAILY TUITION</h6>
+            <h1 class="title-principal text-center  col-md-12 col-xs-12 display-2 fw-semibold mb-3"><strong>EXCITING ADVENTURE</strong></h1>
+            <p class="text-center col-md-7 col-sm-12 fw-normal ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusamus eum dignissimos ipsa sequi expedita.</p>
+            <button class="btn btn-light py-2 primary-btn rounded-5 fw-bold col-md-5 col-xs-10 ">Buy now for $9,99</button>
           </div>
-          <img src="./public/header-img.png" alt="" class="col-md-4 img-fluid ms-3 mt-4">
+          <div class="col-md-5 img-fluid  p-0 mt-4 h-25 d-flex flex-star"><img src="./public/header-img.png" alt="" class=""></div> 
         </div>
       </div>
     </header>
-    <main class="container vh-100 w-75  py-5">
+    <main class="container-fluid min-vh-100 w-75  py-5">
       <div class="row mx-4 py-4 container ">
         <div class="col-md-6">
           <div class="pray">
@@ -70,8 +73,6 @@
           <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, tenetur quidem eum aliquid vel labore sint placeat ad deserunt consectetur fugit ullam. Eius unde neque ducimus obcaecati ipsum quos vero totam recusandae hic expedita nemo sit, illum harum. Quisquam impedit ullam itaque facere et ad molestiae quod reprehenderit excepturi!</p>
         </div>
       </div>
-
-     
     </main>
     <section class="achievements pb-5">
       <div class="title-achievements d-flex flex-column justify-content-center">
@@ -98,7 +99,7 @@
       </div>
       <h1 class="purchase text-center display-6  mt-3">Purchase Whatever You Want</h1>
       <p class="purchase-below text-center text-muted pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-      <div class="d-flex justify-content-center gap-5 mt-5">
+      <div class="purchase d-flex justify-content-center gap-5 mt-5">
         <div class="card" >
           <div class="card-body d-flex flex-column align-items-center">
             <h5 class="card-title text-center d-flex align-items-center justify-content-center mb-5">PDF</h5>
