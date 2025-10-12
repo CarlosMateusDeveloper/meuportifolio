@@ -1,18 +1,43 @@
 
 .navbar{
-    background-color: #080808 ;
+    background-color: #000000 ;
 }
 
 .navbar-brand{
     color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.navbar-brand:hover{
+    color: white !important;
+    transform: scale(1.1);
+}
+
+.navbar-brand span:hover{
+    text-shadow: 0 0 0.8em #d53333;
 }
 
 .last-name{
-    color: #D32F2F;
-    text-shadow: 1px 1px 2px #D32F2F;
+    color: #9e2525;
+    text-shadow: 1px 1px 2px #9e2525;
 
 }
 
 .nav-link{
     color: white;
+}
+
+.nav-link:hover{
+    color: #9e2525;
+}
+
+.nav-link img {
+  width: 50px;
+  height: 50px;
+  filter: brightness(0) invert(1); /* branco */
+  transition: filter 0.5s ease, transform 0.3s ease;
+}
+
+.nav-link img:hover {
+  filter: brightness(0) invert(0.2) sepia(0.75) saturate(4000%) hue-rotate(355deg); /* aumenta levemente */
 }

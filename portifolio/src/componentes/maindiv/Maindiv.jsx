@@ -8,12 +8,10 @@ export default function Maindiv() {
          <h3 className="typing-text text-end">Desenvolvedor de Software</h3>
          <p class=  "description text-end "> Desenvolvedor de Software capaz de trabalhar com front-end, backend e banco de dados. Meu perfil é de alguém inovador, esforçado, ousado e focado na entrega.</p>
          <div className="social-icons d-flex justify-content-end gap-3 fs-3">
-          <a className=' d-inline-flex justify-content-center align-items-center border rounded-circle border-danger' href="https://www.linkedin.com/in/carlos-gonçalves-b38701211/" target="_blank"><i class="bi bi-linkedin text-danger w-50"></i></a>
-          <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://github.com/CarlosMateusDeveloper" target="_blank"><i class="bi bi-github text-danger"></i></a>
-          <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/xilo.vr/" target="_blank"><i class="bi bi-instagram text-danger btn-hover"></i></a>
-
-         </div>
-         
+            <a className=' d-inline-flex justify-content-center align-items-center border rounded-circle border-danger' href="https://www.linkedin.com/in/carlos-gonçalves-b38701211/" target="_blank"><i class="bi bi-linkedin text-danger w-50"></i></a>
+            <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://github.com/CarlosMateusDeveloper" target="_blank"><i class="bi bi-github text-danger"></i></a>
+            <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/dev_carlos_mateus" target="_blank"><i class="bi bi-instagram text-danger btn-hover"></i></a>
+          </  div> 
         </div>
         <div className="home-img me-5 pe-5 pt-5"> <img className='img-fluid  rounded-circle ' src={perfil} alt=""/></div>
       </section>)
