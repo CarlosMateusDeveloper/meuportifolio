@@ -1,6 +1,12 @@
 
 .navbar{
-    background-color: #000000 ;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .navbar-brand{

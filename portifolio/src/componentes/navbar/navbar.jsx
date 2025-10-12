@@ -3,13 +3,13 @@ import './navbar.css'
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg"> 
-      <div className="container-fluid d-flex justify-content-around px-5">
+      <div className="container-fluid px-5 d-flex justify-content-between align-items-center">
         <a className="navbar-brand px-5" href="#">Mateus <span className='last-name'>Gonçalves</span> </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse d-flex justify-content-end me-5" id="navbarNavAltMarkup">
-           <div className="navbar-nav gap-3 ">
+        <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+           <div className="navbar-nav d-flex gap-3 ms-auto me-5">
              <a className="nav-link pt-0" aria-current="page" href="#"><img src="/ai-svgrepo-com.svg" alt="" /></a>
              <a className="nav-link" href="#">Sobre mim</a>
              <a className="nav-link" href="#">Projetos</a>

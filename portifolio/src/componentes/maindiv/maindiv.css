@@ -1,6 +1,7 @@
 .home{
     background-color: #000000;
     height: 100vh   ;
+    padding-top: 90px;
 }
 
 .home-content h1 , .typing-text, .description{
