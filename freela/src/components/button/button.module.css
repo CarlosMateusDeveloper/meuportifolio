@@ -1,0 +1,19 @@
+.button{
+    background: linear-gradient(to right, #0a33b9, #0c6ddc);
+    width: 10rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 5px 0;
+    padding: 5px 0px;
+    cursor: pointer;
+    transition: 5s ease;;
+}
+
+.button:hover{
+    background: linear-gradient(to right, #0c6ddc, #0a33b9);
+}
+
+.link{
+ text-decoration: none;
+ color: white;
+}
