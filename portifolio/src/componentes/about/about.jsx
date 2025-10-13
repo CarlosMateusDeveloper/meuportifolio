@@ -21,7 +21,7 @@ export default function About() {
             <div className="section d-flex flex-row align-itens-center justify-content-center container-fluid px-5 gap-y-3 " id="about-3">
                 <img className='rounded-circle me-3' src={fotoesportes} alt="" />
                 <p className='text-white align-content-center'>
-                    Como Hobbies eu procuro ser bem ativo fisicamente, procuro me distanciar de telas e coisas como jogos e redes sociais, busco fazer algo que ocupe a minha mente e gaste as energias do meu corpo como ir à academia, praticar Jiu-jitsu, caminhar.
+                    Como Hobbies eu procuro ser bem ativo fisicamente, procuro me distanciar de telas e coisas como jogos e redes sociais, busco fazer algo que ocupe a minha mente e gaste as energias do meu corpo como ir à academia, praticar Jiu-jitsu, caminhar, estou tentando pegar o hábito de ler um livro e pelo menos 10 páginas por dia .
                 </p>
             </div>
            

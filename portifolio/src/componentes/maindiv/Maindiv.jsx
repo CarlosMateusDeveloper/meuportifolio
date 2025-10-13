@@ -6,7 +6,7 @@ export default function Maindiv() {
         <div className="home-content d-fex flex-column align-itens-center justify-content-center my-5 p-5">
          <h1 className='text-end'> Olá! Eu sou <span>Mateus Gonçalves</span> </h1>
          <h3 className="typing-text text-end">Desenvolvedor de Software</h3>
-         <p class=  "description text-end "> Desenvolvedor de Software capaz de trabalhar com front-end, backend e banco de dados. Meu perfil é de alguém inovador, esforçado, ousado e focado na entrega.</p>
+         <p class=  "description text-end "> Sou um desenvolvedor de Software capaz de trabalhar com front-end, backend e banco de dados. Meu perfil é de alguém inovador, esforçado, ousado e focado na entrega.</p>
          <div className="social-icons d-flex justify-content-end gap-3 fs-3">
             <a className=' d-inline-flex justify-content-center align-items-center border rounded-circle border-danger' href="https://www.linkedin.com/in/carlos-gonçalves-b38701211/" target="_blank"><i class="bi bi-linkedin text-danger w-50"></i></a>
             <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://github.com/CarlosMateusDeveloper" target="_blank"><i class="bi bi-github text-danger"></i></a>
