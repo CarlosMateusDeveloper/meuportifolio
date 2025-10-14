@@ -12,7 +12,6 @@ export default function Projects() {
                             <img src="..." className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title text-white">Projeto 1</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                                 <a href="#" className="btn btn-danger">See Project</a>
                             </div>
                         </div>
@@ -23,7 +22,6 @@ export default function Projects() {
                             <img src="..." className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title text-white">Projeto 2</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                                 <a href="#" className="btn btn-danger">See Project</a>
                             </div>
                         </div>
@@ -34,7 +32,6 @@ export default function Projects() {
                             <img src="..." className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title text-white">Projeto 3</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                                 <a href="#" className="btn btn-danger">See Project</a>
                             </div>
                         </div>
@@ -45,7 +42,6 @@ export default function Projects() {
                             <img src="..." className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title text-white">Projeto 4</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                                 <a href="#" className="btn btn-danger">See Project</a>
                             </div>
                         </div>
@@ -56,7 +52,6 @@ export default function Projects() {
                         <img src="..." className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title text-white">Projeto 5</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                                 <a href="#" className="btn btn-danger">See Project</a>
                             </div>
                         </div>
@@ -67,7 +62,6 @@ export default function Projects() {
                             <img src="..." className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title text-white">Projeto 6</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                                 <a href="#" className="btn btn-danger">See Project</a>
                             </div>
                         </div>

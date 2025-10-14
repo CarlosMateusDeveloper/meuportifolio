@@ -11,9 +11,9 @@ export default function Navbar() {
         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
            <div className="navbar-nav d-flex gap-3 ms-auto me-5">
              <a className="nav-link pt-0" aria-current="page" href="#"><img src="/ai-svgrepo-com.svg" alt="" /></a>
-             <a className="nav-link" href="#">Sobre mim</a>
-             <a className="nav-link" href="#">Projetos</a>
-             <a className="nav-link" href="#">Contato</a>
+             <a className="nav-link" href="#about">Sobre mim</a>
+             <a className="nav-link" href="#projects">Projetos</a>
+             <a className="nav-link" href="#contact">Contato</a>
            </div>
          </div>
       </div>

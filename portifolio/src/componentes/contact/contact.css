@@ -1,0 +1,19 @@
+.contact{
+    background-color: #000;
+    height: 100vh;
+}
+
+.card-contact{
+    background-color: #600d0d;
+    width: 200px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.card-contact:hover{
+    box-shadow: 0 0 10px #9e2525, 0 0 20px #9e2525, 0 0 30px #9e2525;
+}
+
+.card-contact h3{
+    font-size: 1rem;
+}
