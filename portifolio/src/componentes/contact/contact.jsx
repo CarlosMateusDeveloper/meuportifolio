@@ -4,8 +4,8 @@ import Contactcard from '../contact-card/contact-card.jsx'
 export default function Contact() {
     return (
         <section className="contact d-flex flex-column justify-content-center align-itens-center " id='contact'>
-            <h1 className='text-center text-white mb-3 pb-5'>Contate-me</h1>
-            <div className='d-flex flex-row justify-content-center align-items-center'>
+            <h1 className='text-center text-white pb-3'>Contate-me</h1>
+            <div className='d-flex flex-row justify-content-center align-items-center '>
                 <div className='pe-5'>
                     <div className='d-flex flex-row '>
                         <div className="col-12 col-md-6 "> 
