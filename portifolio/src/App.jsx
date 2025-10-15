@@ -7,19 +7,21 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Projects from './componentes/projetcts/projects.JSX'
 import Contact from './componentes/contact/contact.jsx'
 import Footer from './componentes/footer/footer.jsx'
+import { Route, RouterProvider } from 'react-router-dom'
 
 
 function App() {
  
   return (
-    <>
-      <Navbar />
-      <Maindiv/>
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
+    <RouterProvider router={Route} />
+    // <>
+    //   <Navbar />
+    //   <Maindiv/>
+    //   <About />
+    //   <Projects />
+    //   <Contact />
+    //   <Footer />
+    // </>
   )
 }
 

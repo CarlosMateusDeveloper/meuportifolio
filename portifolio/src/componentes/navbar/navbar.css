@@ -11,7 +11,15 @@
 .navbar-brand{
     color: white;
     transition: ease-in-out 0.3s;
+    cursor: pointer;
 }
+
+.navbar-brand:focus,
+.navbar-brand:active,
+.navbar-brand:visited {
+  color: white !important;
+}
+
 
 .navbar-brand:hover{
     color: white !important;
