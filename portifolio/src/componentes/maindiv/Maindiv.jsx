@@ -4,7 +4,7 @@ export default function Maindiv() {
   return ( 
   <section className="home d-flex flex-row align-itens-center justify-content-center container-fluid px-5" id="home">       
         <div className="home-content d-fex flex-column align-itens-center justify-content-center my-5 p-5">
-         <h1 className='text-end'> Olá! Eu sou <span>Mateus Gonçalves</span> </h1>
+         <h1 className='text-end'> Olá! Eu sou <span>Mateus Gonçalves</span> </h1>  
          <h3 className="typing-text text-end">Desenvolvedor de Software</h3>
          <p class=  "description text-end "> Sou um desenvolvedor de Software capaz de trabalhar com front-end, backend e banco de dados. Meu perfil é de alguém inovador, esforçado, ousado e focado na entrega.</p>
          <div className="social-icons d-flex justify-content-end gap-3 fs-3">
@@ -13,6 +13,6 @@ export default function Maindiv() {
             <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/dev_carlos_mateus" target="_blank"><i class="bi bi-instagram text-danger btn-hover"></i></a>
           </  div> 
         </div>
-        <div className="home-img me-5 pe-5 pt-5"> <img className='img-fluid  rounded-circle ' src={perfil} alt=""/></div>
+        <div className="home-img me-5 pe-5 "> <img className='img-fluid  rounded-circle ' src={perfil} alt=""/></div>
       </section>)
 }

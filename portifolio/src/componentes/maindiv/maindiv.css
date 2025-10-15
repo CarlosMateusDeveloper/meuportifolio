@@ -13,6 +13,9 @@
     color: #9e2525;
     text-shadow: 1px 1px 2px #9e2525;
 }
+.home-content h1{
+    width: 700px;
+}
 
 .home-img img{
     border-radius: 50%;
@@ -50,4 +53,8 @@ i:hover{
     transition: ease-in-out 0.2s;
     color: white !important;
 
+}
+
+.description{
+    font-size: 0.9rem;
 }
