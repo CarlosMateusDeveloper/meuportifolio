@@ -1,4 +1,7 @@
 import './navbar.css'
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
 import { HashLink } from 'react-router-hash-link';
 
 export default function Navbar() {
@@ -9,7 +12,7 @@ export default function Navbar() {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
            <div className="navbar-nav d-flex gap-3 ms-auto me-5">
              <HashLink className="nav-link pt-0" aria-current="page"  to="/ia"><img src="/ai-svgrepo-com.svg" alt="" /></HashLink>
              <HashLink className="nav-link" to="/#about">Sobre mim</HashLink>

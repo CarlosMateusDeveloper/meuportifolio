@@ -1,12 +1,16 @@
 .home{
     background-color: #000000;
-    height: 100vh   ;
+    min-height: 100vh   ;
     padding-top: 90px;
 }
 
-.home-content h1 , .typing-text, .description{
+.home-content .typing-text, .description{
     color: white;
 
+}
+
+.home-content{
+    padding-top: 70px!important;
 }
 
 .home-content h1 span{
@@ -14,16 +18,17 @@
     text-shadow: 1px 1px 2px #9e2525;
 }
 .home-content h1{
-    width: 700px;
+    font-size: 80px;
 }
 
 .home-img img{
     border-radius: 50%;
     border: 4px solid #9e2525;
     box-shadow: 0 0 10px #9e2525, 0 0 20px #9e2525, 0 0 30px #9e2525;
-    width: 700px auto;
-    height: 300px auto;
+    width: 480px ;
+    height: 540px;
      transition: ease-in-out 0.3s;
+     
 }
 
 .home-img img:hover{
@@ -55,6 +60,23 @@ i:hover{
 
 }
 
-.description{
-    font-size: 0.9rem;
+
+@media (max-width: 768px) {
+    .home{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+    .home-content{
+        width: 100%;
+        
+    }
+    .home-content h1{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .home-img img{
+        width: 300px auto;
+        height: 200px auto;
+    }
 }
