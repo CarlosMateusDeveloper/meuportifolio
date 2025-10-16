@@ -10,8 +10,14 @@ export default function Chat() {
                 <Navbar />
                 
                 <form className='d-flex flex-column justify-content-center align-items-center' action="#">
-                    <label htmlFor="text" className='text-white'>Quer me conhecer melhor?</label>
-                    <input class="form-control rounded-5 text-white" type="text" value="Pergunte alguma coisa" aria-label="readonly input example" readonly/>
+                    <label htmlFor="text" className='text-white label mb-4'>Quer me conhecer melhor?</label>
+                    <input
+                        className="form-control rounded-5 mb-5 py-4"
+                        type="text"
+                        placeholder="Pergunte alguma coisa"
+                        aria-label="input exemplo"
+                        />
+
                 </form>
             </main>
         </>

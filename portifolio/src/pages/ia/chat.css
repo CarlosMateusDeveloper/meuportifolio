@@ -1,5 +1,5 @@
 .ia{
-    background: linear-gradient(180deg, #2f0101 , #4b0101);
+    background: linear-gradient(180deg, #3f0202 , #4b0101);
     min-height: 100vh;
     display: flex;
     justify-content: center; /* vertical se flex-column, horizontal se flex-row */
@@ -13,14 +13,26 @@
 .form-control{
     width: 120vh;
     height: 50px;
-    background-color: #3b0101 ;
-     box-shadow: inset 10px 10px 10px rgba(10, 0, 0, 0.05); /* sombra interna sutil */
-    border: none;
+     background-color: #730202 ;
+    border: 0!important;  
+    color: #ff2b2b;
+    caret-color: #ff2b2b;
+}
+
+.form-control::placeholder {
+    color: #ff2b2b; /* Cor do texto do placeholder */
+    opacity: 1; /* Garantir que a opacidade seja 1 para melhor visibilidade */
+}
+
+.label{
+    font-size: 35px;
 }
 
 .form-control:focus,
 .form-control:active,
 .form-control:visited {
-  background-color: #3b0101 ;
+  background-color: #730202 ;
   border: none;
+  box-shadow: none;
+  color: #ff2b2b;
 }
