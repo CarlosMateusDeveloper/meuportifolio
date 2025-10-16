@@ -1,4 +1,4 @@
-import './Projects.css'
+import './projects.css'
 import CardProject from '../cardproject/cardproject'
 // import img1 from '../../assets/image copy.png'  
 
@@ -72,3 +72,4 @@ export default function Projects() {
         </section>
     )
 }
+
