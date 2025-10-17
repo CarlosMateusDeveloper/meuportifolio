@@ -1,0 +1,5 @@
+.maincontainer{
+    height: 100vh;
+    background-color:   hsl(255, 12%, 12%);
+    background-image: url(../../assets/home-lines-bg.svg);
+}
