@@ -12,6 +12,6 @@ export default function Maindiv() {
             <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/dev_carlos_mateus" target="_blank"><i class="bi bi-instagram text-danger btn-hover"></i></a>
           </  div> 
         </div>
-        <div className="home-img me-5 pe-5 mt-4"> <img className='img-fluid  rounded-circle ' src={perfil} alt=""/></div>
+        <div className="home-img me-5 pe-5 mt-4"> <img className='rounded-circle' src={perfil} alt=""/></div>
       </section>)
 }

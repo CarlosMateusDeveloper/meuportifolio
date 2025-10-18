@@ -76,7 +76,10 @@ i:hover{
     }
 
     .home-img img{
-        width: 300px auto;
-        height: 200px auto;
+        width: 300px ; ;
+        height: 300px ;
+        object-fit: cover;
+        padding: 0px!important;
+        margin: 0px!important;
     }
 }
