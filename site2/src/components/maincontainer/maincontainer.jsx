@@ -9,9 +9,15 @@ export default function maincontainer() {
                 <h1 className="title text-white w-75">Create The Constructions <br /> You Want Here</h1>
                 <p className='text-secondary w-75'>We provide the best home design, construction and maintenance services for you and your family.</p>
                 <Button text="Our Services"/>
-                <button>View Projects</button>
-                <div></div>
-                <div></div>
+                <button className='v-projects bg-transparent'>View Projects</button>
+                <div className=''>
+                    <h3>10+</h3>
+                    <p>Years of <br />Experience</p>
+                </div>
+                <div className=''>
+                    <h3>200</h3>
+                    <p>Complete Projects</p>
+                </div>
             </div>
             <div className='d-flex justify-content-center pt-5'>
                 <img src={ homeimage1 } className='mcimg-1 w-75' alt="home-image-1" />
