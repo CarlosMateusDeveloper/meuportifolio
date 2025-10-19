@@ -9,6 +9,9 @@
 
 }
 
+.v-projects{
+    text-decoration: none;
+}
 .mcimg-2{
     position: absolute;
     bottom: 50px;
