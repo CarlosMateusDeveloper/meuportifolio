@@ -2,4 +2,15 @@
     height: 100vh;
     background-color:   hsl(255, 12%, 12%);
     background-image: url(../../assets/home-lines-bg.svg);
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.mcimg-2{
+    position: absolute;
+    bottom: 50px;
+    right: 500px;
 }

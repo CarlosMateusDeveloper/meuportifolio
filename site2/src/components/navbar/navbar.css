@@ -1,0 +1,14 @@
+nav{
+    z-index: 10;
+    background-color: transparent;
+}
+
+.navbar-nav a:first-of-type{
+    color: hsl(18, 95%, 55%)
+}
+
+
+
+div a:nth-of-type(2) { color: hsl(225, 12%, 24%); }   /* 2º <a> */
+div a:nth-of-type(3) { color: hsl(225, 12%, 24%); }  /* 3º <a> */
+div a:nth-of-type(4) { color: hsl(225, 12%, 24%); }
