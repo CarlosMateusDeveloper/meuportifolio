@@ -1,0 +1,15 @@
+.about{
+    height: 100vh;
+}
+
+.img-1{
+    width: 220px;
+    min-height: 390px;
+    object-fit: cover;
+}
+
+.img-2{
+    width: 210px;
+    min-height: 325px;
+    object-fit: cover;
+}

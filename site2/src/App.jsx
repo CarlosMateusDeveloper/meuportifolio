@@ -12,8 +12,11 @@ function App() {
 
   return (
     <>
-    <Navbar />
-    <MainContainer />
+    <div className='principal'>
+      <Navbar />
+      <MainContainer />
+    </div>
+    
     <About />
     <Services />
     <Projects />

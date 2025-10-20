@@ -1,3 +1,4 @@
+
 body{
      --first-color: hsl(18, 95%, 55%);
   --second-color: hsl(42, 98%, 52%);
@@ -27,4 +28,9 @@ body{
   --font-medium: 500;
   --font-semi-bold: 600;
   --font-bold: 700;
+}
+
+.principal{
+   background-color:   hsl(255, 12%, 12%);
+    background-image: url(../src/assets/home-lines-bg.svg);
 }
