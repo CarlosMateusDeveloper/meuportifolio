@@ -8,19 +8,23 @@ export default function maincontainer() {
             <div className='d-flex flex-column justify-content-start align-items-center pt-5 mt-5'>
                 <h1 className="title text-white w-75">Create The Constructions <br /> You Want Here</h1>
                 <p className='text-secondary w-75'>We provide the best home design, construction and maintenance services for you and your family.</p>
-                <Button text="Our Services"/>
-                <button className='v-projects bg-transparent'>View Projects</button>
-                <div className=''>
-                    <h3>10+</h3>
-                    <p>Years of <br />Experience</p>
+                <div className="buttons d-flex gap-3">
+                    <Button text="Our Services"/>
+                    <button className='v-projects bg-transparent'>View Projects <i class="bi bi-arrow-right text-danger"></i></button>
+                </div>
+                <div className="numbers d-flex gap-5 pt-4">
+                    <div className=''>
+                    <h3 className='number'>10+</h3>
+                    <p className='text-white'>Years of <br />Experience</p>
                 </div>
                 <div className=''>
-                    <h3>200</h3>
-                    <p>Complete Projects</p>
+                    <h3 className='number'>200</h3>
+                    <p className='text-white'>Complete Projects</p>
+                </div>
                 </div>
             </div>
             <div className='d-flex justify-content-center pt-5'>
-                <img src={ homeimage1 } className='mcimg-1 w-75' alt="home-image-1" />
+                <img src={ homeimage1 } className='mcimg-1 w-100 h-75 pe-5 me-5' alt="home-image-1" />
                 <img src={homeimage2} className='mcimg-2 w-25' alt="home-image-2" />
             </div>
         </section>

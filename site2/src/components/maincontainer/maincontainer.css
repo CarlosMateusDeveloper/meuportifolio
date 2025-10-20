@@ -11,9 +11,22 @@
 
 .v-projects{
     text-decoration: none;
+    border: none;
+    color: hsl(18, 95%, 55%);
+}
+
+.mcimg-1{
+    object-fit: cover;
+
 }
 .mcimg-2{
     position: absolute;
     bottom: 50px;
     right: 500px;
+    z-index: 1;
+    border: 20px solid hsl(255, 12%, 12%);
+}
+
+.number{
+    color: hsl(42, 98%, 52%);
 }
