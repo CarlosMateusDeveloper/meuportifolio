@@ -13,7 +13,7 @@ export default function Navbar() {
                 <div className="navbar-nav ms-auto gap-5">
                     <a className="nav-link  " href="#">Home</a>
                     <a className="nav-link text-secondary" href="#about">About us</a>
-                    <a className="nav-link text-secondary" href="#">Services</a>
+                    <a className="nav-link text-secondary" href="#services">Services</a>
                     <a className="nav-link text-secondary" >Projects</a>
                     <Button text={"Contact Us"}/>   
                 </div>
