@@ -6,7 +6,7 @@ export default function maincontainer() {
     return (
         <section className="maincontainer container-fluid pt-5 px-5 d-flex flex-row pt-5" id='maincontainer'>
             <div className='d-flex flex-column justify-content-start align-items-center pt-5 mt-5'>
-                <h1 className="title text-white w-75">Create The Constructions <br /> You Want Here</h1>
+                <h1 className="title text-white w-75">Create The <br /> Constructions <br /> You Want Here</h1>
                 <p className='text-secondary w-75'>We provide the best home design, construction and maintenance services for you and your family.</p>
                 <div className="buttons d-flex gap-3">
                     <Button text="Our Services"/>

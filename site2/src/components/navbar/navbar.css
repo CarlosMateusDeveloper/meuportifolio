@@ -1,6 +1,6 @@
 nav{
-    z-index: 10;
     background-color: transparent;
+    position: fixed;
 }
 
 .navbar-nav a:first-of-type{
@@ -12,3 +12,11 @@ nav{
 div a:nth-of-type(2) { color: hsl(225, 12%, 24%); }   /* 2º <a> */
 div a:nth-of-type(3) { color: hsl(225, 12%, 24%); }  /* 3º <a> */
 div a:nth-of-type(4) { color: hsl(225, 12%, 24%); }
+
+.nav-link{
+    transition: ease-in-out 0.3s ;
+}
+
+.nav-link:hover{
+    color: hsl(18, 95%, 55%)!important;
+}
