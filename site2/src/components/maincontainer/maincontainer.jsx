@@ -10,7 +10,7 @@ export default function maincontainer() {
                 <p className='text-secondary w-75'>We provide the best home design, construction and maintenance services for you and your family.</p>
                 <div className="buttons d-flex gap-3">
                     <Button text="Our Services"/>
-                    <button className='v-projects bg-transparent'>View Projects <i class="bi bi-arrow-right text-danger"></i></button>
+                    <button className='v-projects bg-transparent'>View Projects <i className="bi bi-arrow-right text-danger"></i></button>
                 </div>
                 <div className="numbers d-flex gap-5 pt-4">
                     <div className=''>

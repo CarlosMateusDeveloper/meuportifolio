@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid px-5 mx-5">
-            <a className="navbar-brand text-white ps-5" href="#"> <i class="ri-building-3-line text-danger"></i> Construction</a>
+            <a className="navbar-brand text-white ps-5" href="#"> <i className='ri-building-3-line text-danger'></i> Construction</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
