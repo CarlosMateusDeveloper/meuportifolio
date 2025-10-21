@@ -1,4 +1,4 @@
-
+import './cards.css'
 export default function Cards({image , subtitle , title , date }){
     return(
         <div className='card' style={{width: '18rem'}}>
