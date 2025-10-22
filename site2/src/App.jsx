@@ -8,6 +8,7 @@ import './App.css'
 import About from './components/about/about.jsx';
 import Services from './components/servic/services.jsx';
 import Projects from './components/projects/projects.jsx';
+import Contact from './components/contact/contact.jsx'
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
     <About />
     <Services />
     <Projects />
+    <Contact />
+
     </>
   )
 }

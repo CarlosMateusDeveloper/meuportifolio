@@ -11,7 +11,7 @@ export default function Projects() {
             <div className="cards-projects d-flex justify-content-center gap-4 pt-5">
                 <Cards subtitle={'House construction'} title={'Two Story House'} date={'January 15, 2024'} image={image1}/>
                 <Cards subtitle={'Maintenance & Repair'} title={'Stairs & Columns'} date={'May 21, 2024'} image={image2}/>
-                <Cards subtitle={'House construction'} title={''} date={'January '} image={image3}/>
+                <Cards subtitle={'Construction Of Home Areas'} title={'Kitchen Home'} date={'July 03,2025'} image={image3}/>
             </div>
         </section>
     )
