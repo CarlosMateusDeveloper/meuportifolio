@@ -4,30 +4,32 @@ export default function Footer(){
         <section className='container-fluid pt-5 d-flex flex-column justify-content-center align-items-center' id='footer'>
             <div className='container d-flex justify-content-between gap-5'>
                 <div>
-                    <i className='ri-building-3-line text-danger'></i> <h5>Construct</h5>
+                    <div className='d-flex'>
+                        <i className='ri-building-3-line text-danger'></i> <h5 className='text-white'>Construct</h5>
+                    </div>
                     <p className='text-secondary'>We build security <br /> and trust in homes.</p>
                     <p className='text-secondary'>Email: construct123@gmail.com</p>
                 </div>
                 <div>
-                    <h5>Company</h5>
-                    <div className='d-flex flex-column'>
-                        <a href="">About Us</a>
-                        <a href="">Services</a>
-                        <a href="">Projects</a>
+                    <h5 className='title-footer text-white'>Company</h5>
+                    <div className='link-footer d-flex flex-column'>
+                        <a className='text-decoration-none text-secondary' href="">About Us</a>
+                        <a className='text-decoration-none text-secondary' href="">Services</a>
+                        <a className='text-decoration-none text-secondary' href="">Projects</a>
                     </div>
                     
                 </div>
                 <div>
-                    <h5>Information</h5>
+                    <h5 className='title-footer text-white'>Information</h5>
                     <p className='text-secondary'>Peru - Lima <br /> Av.Moon#321</p>
                     <p className='text-secondary'>9AM-11PM</p>
                 </div>
                 <div>
-                    <h5>Social Media</h5>
-                    <div className='d-flex gap-2 ps-2'>
-                        <i class="bi bi-instagram text-danger"></i>
-                        <i class="bi bi-facebook text-danger"></i>
-                        <i class="bi bi-twitter-x text-danger"></i>
+                    <h5 className='title-footer text-white'>Social Media</h5>
+                    <div className='social d-flex gap-2 ps-2'>
+                        <i className="bi bi-instagram text-danger"></i>
+                        <i className="bi bi-facebook text-danger"></i>
+                        <i className="bi bi-twitter-x text-danger"></i>
                     </div>
                 </div>
             </div>
