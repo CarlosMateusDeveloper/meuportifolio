@@ -7,7 +7,7 @@ export default function Cards({image , subtitle , title , date }){
                 <h6 className="card-title">{subtitle}</h6>
                 <h5 className="card-title">{title}</h5>
                 <h6 className="card-title">{date}</h6>
-                <p className="card-text">Construction of a two-story house with </p>
+                <p className="card-text">Construction of a two-story house with columns, foundations, floor, ceilings and others. </p>
             </div>
         </div>
     )
