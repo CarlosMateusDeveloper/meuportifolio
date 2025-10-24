@@ -1,3 +1,23 @@
 .contact-content{
     width: 100%;
+    flex-wrap: wrap;         /* evita quebra em telas pequenas */
+    gap: 2rem;  
+}
+
+.subtitle-contact{
+    color: hsl(42, 98%, 52%);
+}
+
+.contact-container{
+    max-width: 600px; /* controla o tamanho sem quebrar o grid interno */
+  width: 100%;
+}
+
+.contact-image{
+    max-width: 400px;
+    height: auto;
+}
+
+.container{
+    width: 50%;
 }

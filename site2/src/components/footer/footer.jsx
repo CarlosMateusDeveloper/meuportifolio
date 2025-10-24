@@ -33,7 +33,10 @@ export default function Footer(){
                     </div>
                 </div>
             </div>
+            <br />
+            <hr /><br />
             <p className='text-secondary'>All right reserved By Mateus.code</p>
+
         </section>
     )
 }
