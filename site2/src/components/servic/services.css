@@ -1,3 +1,14 @@
 #services{
     height: 100vh;
+    position: relative;
+}
+
+.back{
+    background-color: hsl(255, 12%, 12%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* ajuste conforme o tamanho desejado */
+    z-index: -1;
 }

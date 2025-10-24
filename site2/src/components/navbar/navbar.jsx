@@ -15,7 +15,7 @@ export default function Navbar() {
                     <a className="nav-link text-secondary" href="#about">About us</a>
                     <a className="nav-link text-secondary" href="#services">Services</a>
                     <a className="nav-link text-secondary" >Projects</a>
-                    <Button text={"Contact Us"}/>   
+                    <Button text={"Contact Us"} link={"#contact"} />   
                 </div>
             </div>
         </div>

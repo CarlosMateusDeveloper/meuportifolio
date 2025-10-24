@@ -1,3 +1,6 @@
+#contact{
+    height: 100vh;
+}
 .contact-content{
     width: 100%;
     flex-wrap: wrap;         /* evita quebra em telas pequenas */

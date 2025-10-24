@@ -13,38 +13,8 @@ export default function Services() {
                 <Button text={"Contact Now"}/>
 
             </div>
-            <div>
-                {/* <Carousel indicators={false}>
-                  {/* PRIMEIRO SLIDE (com 3 cards) */}
-                  {/* <Carousel.Item>
-                    <div className="row">
-                      <div className="col-md-4">
-                        <SeuCardDeServico />
-                      </div>
-                      <div className="col-md-4">
-                        <SeuCardDeServico />
-                      </div>
-                      <div className="col-md-4">
-                        <SeuCardDeServico />
-                      </div>
-                    </div>
-                  </Carousel.Item> */}
-                
-                  {/* SEGUNDO SLIDE (com os próximos 3 cards) */}
-                  {/* <Carousel.Item>
-                    <div className="row">
-                      <div className="col-md-4">
-                        <SeuCardDeServico />
-                      </div>
-                      <div className="col-md-4">
-                        <SeuCardDeServico />
-                      </div>
-                      <div className="col-md-4">
-                        <SeuCardDeServico />
-                      </div>
-                    </div>
-                  </Carousel.Item>
-                </Carousel> */} 
+            <div className="back"></div>
+            <div> 
             </div>
         </section>
     )
