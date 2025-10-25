@@ -1,5 +1,20 @@
 .card-contact{
     border: 2px solid gray;
-    max-width: 200px;
-    height: 200px;
+    transition: 0.3s ease-in-out;
+    width: 250px;
+    height: 220px;
+}
+
+.card-contact:hover{
+    border: 2px solid hsl(18, 95%, 55%);
+}
+.icon-contact{
+    background-color: black;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;    /* centralização vertical */
+    justify-content: center; /* centralização horizontal */
+    border-radius: 50%;     /* mesmo que rounded-circle */
+    font-size: 1.5rem; 
 }

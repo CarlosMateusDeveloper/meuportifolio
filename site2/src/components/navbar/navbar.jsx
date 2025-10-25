@@ -3,7 +3,7 @@ import Button from '../button/button'
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg ">
+    <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container-fluid px-5 mx-5">
             <a className="navbar-brand text-white ps-5" href="#"> <i className='ri-building-3-line text-danger'></i> Construction</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@ export default function Navbar() {
                     <a className="nav-link  " href="#">Home</a>
                     <a className="nav-link text-secondary" href="#about">About us</a>
                     <a className="nav-link text-secondary" href="#services">Services</a>
-                    <a className="nav-link text-secondary" >Projects</a>
+                    <a className="nav-link text-secondary" href='#projects' >Projects</a>
                     <Button text={"Contact Us"} link={"#contact"} />   
                 </div>
             </div>

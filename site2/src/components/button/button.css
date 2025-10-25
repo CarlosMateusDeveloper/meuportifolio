@@ -1,5 +1,12 @@
 .custom-button{
     background: linear-gradient(150deg, hsl(18, 95%, 55%), hsl(35, 100%, 40%));
     border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.custom-button a{
+    text-decoration: none;
+    border: none;
+    color: white;
 }
 

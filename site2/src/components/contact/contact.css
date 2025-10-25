@@ -1,9 +1,12 @@
 #contact{
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.contact{
+    width: 90%;
 }
 .contact-content{
-    width: 100%;
-    flex-wrap: wrap;         /* evita quebra em telas pequenas */
+    width: 100%;        /* evita quebra em telas pequenas */
     gap: 2rem;  
 }
 
@@ -17,10 +20,15 @@
 }
 
 .contact-image{
-    max-width: 400px;
+    max-width: 550px;
     height: auto;
 }
 
 .container{
     width: 50%;
+}
+
+.contact-card{
+    width: 200px;
+    height: 50px;
 }
