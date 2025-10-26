@@ -5,21 +5,21 @@ import homeimage2 from '../../assets/home-img-2.png';
 export default function maincontainer() {
     return (
         <section className="maincontainer container-fluid pt-5 px-5 d-flex flex-row pt-5" id='maincontainer'>
-            <div className='d-flex flex-column justify-content-start align-items-center pt-5 mt-5'>
+            <div className='d-flex flex-column justify-content-center align-items-start pt-5 mt-5 ms-5 ps-5'>
                 <h1 className="title text-white w-75 ">Create The <br /> Constructions <br /> You Want Here</h1>
                 <p className='text-secondary w-75'>We provide the best home design, construction and maintenance services for you and your family.</p>
-                <div className="buttons d-flex gap-3">
+                <div className="buttons d-flex gap-3 justify-content-center">
                     <Button text="Our Services"/>
                     <button className='v-projects bg-transparent'>View Projects <i className="bi bi-arrow-right text-danger"></i></button>
                 </div>
-                <div className="numbers d-flex gap-5 pt-4">
+                <div className="numbers d-flex gap-5 pt-4 me-5">
                     <div className=''>
-                    <h3 className='number'>10+</h3>
-                    <p className='text-white'>Years of <br />Experience</p>
+                    <h3 className='number fs-1'>10+</h3>
+                    <p className='text-white '>Years of <br />Experience</p>
                 </div>
-                <div className=''>
-                    <h3 className='number'>200</h3>
-                    <p className='text-white'>Complete Projects</p>
+                <div className='numbers ps-5'>
+                    <h3 className='number fs-1'>200</h3>
+                    <p className='text-white '>Complete <br /> Projects</p>
                 </div>
                 </div>
             </div>

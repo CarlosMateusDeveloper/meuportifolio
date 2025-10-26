@@ -10,6 +10,10 @@
     gap: 2rem;  
 }
 
+.sub-icon{
+    color: hsl(18, 95%, 55%);
+}
+
 .subtitle-contact{
     color: hsl(42, 98%, 52%);
 }
@@ -20,8 +24,8 @@
 }
 
 .contact-image{
-    max-width: 550px;
-    height: auto;
+    max-width: 500px;
+    height: 500px;
 }
 
 .container{
@@ -31,4 +35,9 @@
 .contact-card{
     width: 200px;
     height: 50px;
+}
+
+.top{
+    height: 50vh;
+    width: 40%;
 }

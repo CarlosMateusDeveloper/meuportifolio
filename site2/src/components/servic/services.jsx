@@ -2,7 +2,7 @@ import Button from '../button/button'
 import './services.css'
 export default function Services() {
     return (
-        <section id="services px-5">
+        <section className='px-5' id="services">
             <div className='services-content container-fluid px-5 d-flex '>
                 <div>
                     <h6 className='subtitle-services'>OUR SERVICES</h6>
