@@ -1,15 +1,14 @@
 import Button from '../button/button'
 import './services.css'
-import { Carousel } from 'react-bootstrap'; 
 export default function Services() {
     return (
-        <section id="services">
-            <div>
+        <section id="services px-5">
+            <div className='services-content container-fluid px-5 d-flex '>
                 <div>
-                    <h6>OUR SERVICES</h6>
-                    <h3>High Quality Construction Services</h3>
+                    <h6 className='subtitle-services'>OUR SERVICES</h6>
+                    <h1>High Quality Construction Services</h1>
                 </div>
-                <p>We provide multiple services for you, offering confidence and security in construction.</p>
+                <p className='text-secondary'>We provide multiple services for you, offering confidence and security in construction.</p>
                 <Button text={"Contact Now"}/>
 
             </div>

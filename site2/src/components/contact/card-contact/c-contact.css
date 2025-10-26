@@ -1,6 +1,6 @@
 .card-contact{
     border: 2px solid gray;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     width: 250px;
     height: 220px;
 }
@@ -17,4 +17,9 @@
     justify-content: center; /* centralização horizontal */
     border-radius: 50%;     /* mesmo que rounded-circle */
     font-size: 1.5rem; 
+}
+
+.square-contact{
+    align-content: center;
+    text-align: center;
 }

@@ -10,10 +10,20 @@ export default function Contact(){
             <div className='contact-content d-flex justify-content-around flex-wrap pt-5'>
                 <img className='contact-image' src={image} alt="" />
                 <div className="top d-flex flex-row gap-3">
-                     <Card icon={<i class="bi bi-geo-alt-fill"></i>} title={"I'm Here"} subtitle={<p>Peru - Lima <br />Av.Moon n°321</p>}/>
-                     <Card icon={<i class="bi bi-telephone"></i>} title={"Talk to me"} subtitle={"+00-987-7654-432 +11-012345"}/>
+                     <Card 
+                     icon={<i class="bi bi-geo-alt-fill"></i>} 
+                     title={"I'm Here"} 
+                     subtitle={<p>Peru - Lima <br />Av.Moon n°321</p>}/>
+                     <Card 
+                     icon={<i class="bi bi-telephone"></i>} 
+                     title={"Talk to me"} 
+                     subtitle={`-987-7654-432 +11-012345`}/>    
+                     <Card 
+                     icon={<i class="bi bi-chat-right-dots"></i>} 
+                     title={"I'm Here"} 
+                     subtitle={<div> <i class="bi bi-whatsapp"></i> <i class="bi bi-messenger"></i> <i class="bi bi-telegram"></i></div>}/> 
                 </div>
-                 <Card icon={<i class="bi bi-chat-right-dots"></i>} title={"I'm Here"} subtitle={<a></a>}/>
+                 
             </div>
             </div>
             

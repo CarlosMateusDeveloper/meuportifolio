@@ -12,3 +12,7 @@
     height: 200px; /* ajuste conforme o tamanho desejado */
     z-index: -1;
 }
+
+.subtitle-services{
+    color: hsl(42, 98%, 52%);
+}
