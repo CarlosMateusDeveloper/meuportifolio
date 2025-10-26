@@ -7,14 +7,13 @@ export default function About() {
         <section className="about pt-5 pb-5" id='about'>
             <div className="section d-flex flex-row align-itens-center justify-content-center container-fluid " id="about">
                  <img className='rounded-circle' src={foto} alt="" />
-            <p className="about-text text-white pt-5 px-4 ">
-               Sou um Desenvolvedor de software em formação no Instituto Federal de do Rio Grande do Norte (IFRN) no Campus Parnamirim. Trabalho principalmente com desenvolvimento web. Sou conhecido por minha capacidade de resolver problemas complexos e trabalhar bem em equipe. 
-            </p>
+                <p className="about-text text-white pt-5 px-4 align-content-center">
+                Sou Desenvolvedor Fullstack em formação no Instituto Federal do Rio Grande do Norte (IFRN), campus Parnamirim. Atualmente, curso Tecnologia em Sistemas para Internet e estou no 4º semestre, com previsão de conclusão em dezembro de 2027.
+                </p>
             </div>
             <div className="section d-flex flex-row align-itens-center justify-content-center container-fluid" id="about-2">
-                <p className='text-white align-content-center text-end pe-3'>Estou cursando o 4° período do Tecnólogo em Sistemas para Internet.
-                    Trabalho desde as tecnologias básicas — HTML, CSS e JavaScript/TypeScript — até frameworks como Angular e React (este portfólio foi desenvolvido em React).
-                    Já usei bancos de dados MySQL, além de linguagens como C, C++ e Python. Possuo conhecimentos em redes de computadores, Cloud Computing e IA.</p>
+                <p className='text-white align-content-center text-end pe-3'> Trabalho com HTML, CSS, JavaScript/TypeScript, uso frameworks como Angular e React (este portfólio foi desenvolvido em React).
+                    Uso PostgreSQL e mySQL como banco de dados e no Backend utilizo nodeJS ou Python. Gosto de me aventurar em projetos que incluam Cloud Computing, IA e Blockchain.</p>
                 <img className=' rounded-circle' src={foto2} alt="" />
             </div>
             <div className="section d-flex flex-row align-itens-center justify-content-center container-fluid px-5 gap-y-3 " id="about-3">

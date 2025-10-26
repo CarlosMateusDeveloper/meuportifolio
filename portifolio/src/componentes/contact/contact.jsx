@@ -5,9 +5,9 @@ export default function Contact() {
     return (
         <section className="contact d-flex flex-column justify-content-center align-itens-center " id='contact'>
             <h1 className='text-center text-white pb-3'>Contate-me</h1>
-            <div className='d-flex flex-row justify-content-center align-items-center '>
-                <div className='pe-5'>
-                    <div className='d-flex flex-row '>
+            <div className='d-flex flex-row-reverse justify-content-center align-items-center flex-wrap'>
+                <div className='pe-5 d-flex flex-column flex-wrap'>
+                    <div className='d-flex flex-row flex-wrap'>
                         <div className="col-12 col-md-6 "> 
                             <Contactcard icon={"bi bi-geo-alt-fill"} title={"Localização"} local={"Natal, RN - Brasil"}/>         
                         </div>

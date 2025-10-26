@@ -1,6 +1,6 @@
 .contact{
     background-color: rgb(25, 0, 0);
-    height: 110vh;
+    min-height: 110vh;
     overflow: hidden;
 }   
 
