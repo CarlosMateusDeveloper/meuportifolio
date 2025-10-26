@@ -1,12 +1,17 @@
 .about{
     height: 100vh;
+    width: 80%;
 }
 
 .img-1{
-    width: 300px;
+    width: 350px;
     min-height: 450px;
     object-fit: cover;
     border: 10px solid white;
+    position: absolute;
+    left: 400px;
+    top: 1000px;
+    z-index: 10;
 }
 
 .img-2{
@@ -16,7 +21,7 @@
 }
 
 .content{
-    width: 35%;
+    width: 45%;
 }
 
 .content h6{

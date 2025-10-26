@@ -4,7 +4,7 @@ import aboutimage2 from '../../assets/about-img-2.png';
 import Button from '../button/button'
 export default function About() {
     return (
-        <section className="about container-fluid d-flex justify-content-around align-items-center" id='about'>
+        <section className="about container-fluid d-flex justify-content-center align-items-center" id='about'>
             <div className="images">
                 <img src={aboutimage1} className='img-1' alt="" />
                 <img src={aboutimage2} className='img-2' alt="" />
