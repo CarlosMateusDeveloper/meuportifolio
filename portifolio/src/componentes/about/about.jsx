@@ -13,7 +13,7 @@ export default function About() {
             </div>
             <div className="section d-flex flex-row align-itens-center justify-content-center container-fluid" id="about-2">
                 <p className='text-white align-content-center text-end pe-3'> Trabalho com HTML, CSS, JavaScript/TypeScript, uso frameworks como Angular e React (este portfólio foi desenvolvido em React).
-                    Uso PostgreSQL e mySQL como banco de dados e no Backend utilizo nodeJS ou Python. Gosto de me aventurar em projetos que incluam Cloud Computing, IA e Blockchain.</p>
+                    Uso PostgreSQL e mySQL como banco de dados e no Backend utilizo nodeJS ou Python. Gosto de aprender sobre Cloud Computing, IA e Blockchain.</p>
                 <img className=' rounded-circle' src={foto2} alt="" />
             </div>
             <div className="section d-flex flex-row align-itens-center justify-content-center container-fluid px-5 gap-y-3 " id="about-3">
