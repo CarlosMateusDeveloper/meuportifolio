@@ -1,8 +1,9 @@
 .about{
     background-color: #000000;
+    min-height: 100vh;
 }
 
-.section img{
+.content-image img{
     width: 250px;
     height: 250px;
     transition: ease-in-out 0.3s;
