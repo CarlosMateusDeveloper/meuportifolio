@@ -1,5 +1,6 @@
 import './navbar.css'
 import Button from '../button/button'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
 
 export default function Navbar() {
@@ -20,7 +21,7 @@ export default function Navbar() {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav ms-auto gap-5">
+                <div className="navbar-nav gap-5">
                     <a className="nav-link  " href="#">Home</a>
                     <a className="nav-link text-secondary" href="#about">About us</a>
                     <a className="nav-link text-secondary" href="#services">Services</a>

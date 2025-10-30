@@ -26,3 +26,26 @@ div a:nth-of-type(4) { color: hsl(225, 12%, 24%); }
 .nav-link:hover{
     color: hsl(18, 95%, 55%)!important;
 }
+
+@media (max-width: 994px) {
+  /* Container do collapse */
+  .navbar-collapse {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important; /* alinha todo o conteúdo à direita */
+    width: 100% !important;           /* importante: ocupar toda a largura */
+    text-align: right !important;  
+    background-color: hsl(255, 12%, 12%);    /* garante que o texto fique à direita */
+  }
+
+  /* Nav interno */
+  .navbar-collapse .navbar-nav {
+    width: 100% !important;            /* ocupa toda a largura do collapse */
+    align-items: flex-end !important;  /* alinha os links à direita */
+  }
+
+  .navbar-collapse .nav-link {
+    margin: 0.25rem 0 !important;      /* espaçamento entre links */
+  }
+}
+
