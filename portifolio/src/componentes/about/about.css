@@ -3,21 +3,53 @@
     min-height: 100vh;
 }
 
+.about h1{
+    color: #9e2525;
+    border-bottom: 5px solid #9e2525;
+}
+
 .content-image img{
     width: 250px;
     height: 250px;
     transition: ease-in-out 0.3s;
+    cursor: pointer;
 }
 
-.section img:hover{
+.content-image img:hover{
     transform: scale(1.05);
-    width: 250px;
-    height: 250px;
 }
+
+.content-image .img-2{
+    width: 500px;
+    height: 500px;
+    z-index: 100;
+}
+
 
 .section p{
     width: 1000px;
     font-size: 1rem;
     
 }
+
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 2s ease-in-out infinite;
+  transition: transform 0.1s ease;
+  user-select: none;
+}
+
 
