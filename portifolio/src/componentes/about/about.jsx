@@ -9,7 +9,10 @@ export default function About() {
             <div className='d-flex flex-row mx-5'>
                 <div className="content-text w-75">
                     <p className="about-text text-white pt-5 px-4 align-content-center fs-4">
-                        Sou Desenvolvedor Fullstack em formação no Instituto Federal do Rio Grande do Norte (IFRN), campus Parnamirim. Atualmente, curso Tecnologia em Sistemas para Internet e estou no 4º semestre, com previsão de conclusão em dezembro de 2027. Atualmente estou morando no Município de Nisia Floresta e atuo em toda a grande Natal, tenho 23 anos e estou a procura de entrar no mercado de desenvolvimento web.
+                        Desenvolvedor Fullstack em formação no Instituto Federal do Rio Grande do Norte (IFRN), campus Parnamirim. Atualmente, curso Tecnologia em Sistemas para Internet e estou no 4º semestre, com previsão de conclusão em dezembro de 2027.
+                        <br />
+                        <br /> 
+                        Atualmente estou morando no Município de Nisia Floresta e atuo em toda a grande Natal, tenho 23 anos e estou a procura de entrar no mercado de desenvolvimento de software.
                     </p>
                     {/* <p className='about-text text-white pt-5 px-4 align-content-center fs-4'>
                         Trabalho com HTML, CSS, JavaScript/TypeScript, uso frameworks como Angular e React (este portfólio foi desenvolvido em React).
