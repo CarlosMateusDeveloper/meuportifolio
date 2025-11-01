@@ -31,7 +31,10 @@
   top: -8rem;
   left: 7rem;
 }
-
+.content-image .img-1:hover{
+  border: 5px solid #e83939;
+  
+}
 .content-image .img-3{
   position: relative;
   
