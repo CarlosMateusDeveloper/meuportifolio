@@ -4,7 +4,7 @@
 
 export default function Navbar() {
   return (
-    <BootstrapNavbar expand="lg" bg="transparent" className="px-5">
+    <BootstrapNavbar expand="lg" bg="transparent" className="principal px-5">
       <Container fluid className="d-flex justify-content-between align-items-center">
         <BootstrapNavbar.Brand as={HashLink} to="/#home">
           Mateus <span className="last-name">Gonçalves</span>
