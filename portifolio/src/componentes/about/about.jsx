@@ -5,27 +5,20 @@ import fotoesportes from '../../assets/foto-esportes.jpg'
 export default function About() {
     return (
         <section className="about py-5 container-fluid" id='about'>
-            <h1>Sobre mim</h1>
+            <h1 className='text-center'>Sobre mim</h1>
             <div className='d-flex flex-row mx-5'>
                 <div className="content-text w-75">
                     <p className="about-text text-white pt-5 px-4 align-content-center fs-4">
-                        Sou Desenvolvedor Fullstack em formação no Instituto Federal do Rio Grande do Norte (IFRN), campus Parnamirim.      Atualmente, curso Tecnologia em Sistemas para Internet e estou no 4º semestre, com previsão de conclusão em dezembro de 2027.
+                        Sou Desenvolvedor Fullstack em formação no Instituto Federal do Rio Grande do Norte (IFRN), campus Parnamirim. Atualmente, curso Tecnologia em Sistemas para Internet e estou no 4º semestre, com previsão de conclusão em dezembro de 2027. Atualmente estou morando no Município de Nisia Floresta e atuo em toda a grande Natal, tenho 23 anos e estou a procura de entrar no mercado de desenvolvimento web.
                     </p>
-                    <br />
-                    <p className='about-text text-white pt-5 px-4 align-content-center fs-4'>
+                    {/* <p className='about-text text-white pt-5 px-4 align-content-center fs-4'>
                         Trabalho com HTML, CSS, JavaScript/TypeScript, uso frameworks como Angular e React (este portfólio foi desenvolvido em React).
                         Uso PostgreSQL e mySQL como banco de dados e no Backend utilizo nodeJS ou Python. Gosto de aprender sobre Cloud Computing, IA e Blockchain.
-                    </p>
-                    <br />
+                    </p> */}
                     <p className='about-text text-white pt-5 px-4 align-content-center fs-4'>
-                        Como Hobbies eu procuro ser bem ativo fisicamente, procuro me distanciar de telas e coisas como jogos e redes sociais, busco fazer algo que ocupe a minha mente e gaste as energias do meu corpo como ir à academia, praticar Jiu-jitsu, caminhar, estou tentando pegar o hábito de ler um livro e pelo menos 10 páginas por dia.
+                        Meus Hobbies envolvem leitura e atividades fisicas, busco fazer algo que ocupe a minha mente de forma saudável e me elevem fisica e mentalmente como ir à academia, praticar Jiu-jitsu e caminhar. Minha meta é ler pelo menos 10 páginas de um livro por dia, ir todos os dias a academia e conseguir minha primeira graduação no Jiu-jitsu.
                     </p>
-                        
-                
-                       
-            
-                        
-                     
+     
                 </div>
                 <div className="content-image">
                     <img className='rounded-circle animate-float img-1' src={foto} alt="" />

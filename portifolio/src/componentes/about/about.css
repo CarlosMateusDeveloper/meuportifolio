@@ -5,7 +5,6 @@
 
 .about h1{
     color: #9e2525;
-    border-bottom: 5px solid #9e2525;
 }
 
 .content-image img{
@@ -20,9 +19,23 @@
 }
 
 .content-image .img-2{
+  position: relative;
+  top: 150px;
     width: 500px;
     height: 500px;
     z-index: 100;
+}
+
+.content-image .img-1{
+  position: relative;
+  top: -8rem;
+  left: 7rem;
+}
+
+.content-image .img-3{
+  position: relative;
+  
+  left: 3rem;
 }
 
 
