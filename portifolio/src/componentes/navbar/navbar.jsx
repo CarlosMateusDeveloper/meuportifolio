@@ -11,7 +11,7 @@ export default function Navbar() {
         </BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="navbar-nav" />
         <BootstrapNavbar.Collapse id="navbar-nav">
-          <Nav className="ms-auto me-5 d-flex gap-3 align-items-center">
+          <Nav className=" nav ms-auto me-5 d-flex gap-3 align-items-center">
             <Nav.Link as={HashLink} to="/ia">
               <img src="/ai-svgrepo-com.svg" alt="" />
             </Nav.Link>
