@@ -16,7 +16,7 @@ export default function Navbar() {
               <img src="/ai-svgrepo-com.svg" alt="" />
             </Nav.Link>
             <Nav.Link as={HashLink} to="/#about">Sobre mim</Nav.Link>
-            <Nav.Link as={HashLink} to="/#Stacks">Stacks</Nav.Link>
+            <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
             <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
             <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
             

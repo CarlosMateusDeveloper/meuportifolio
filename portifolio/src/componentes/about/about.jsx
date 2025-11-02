@@ -6,7 +6,7 @@ export default function About() {
     return (
         <section className="about py-5 container-fluid" id='about'>
             <h1 className='text-center'>Sobre mim</h1>
-            <div className='d-flex flex-row mx-5 flex-wrap'>
+            <div className='d-flex flex-row mx-5'>
                 <div className="content-text w-75 pt-5">
                     <p className="about-text text-white pt-5 px-4 align-content-center fs-4">
                         Desenvolvedor Fullstack em formação no Instituto Federal do Rio Grande do Norte (IFRN), campus Parnamirim. Atualmente, curso Tecnologia em Sistemas para Internet e estou no 4º semestre, com previsão de conclusão em dezembro de 2027.
