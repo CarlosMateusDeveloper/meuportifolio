@@ -68,24 +68,32 @@ i:hover{
     .home{
         display: flex;
         flex-direction: column-reverse!important;
+        display: flex;
+        justify-content: center!important;
+        align-items: cente!important;
+        width: 100%;
+        margin: 0!important;
+        padding: 0!important;
     }
     .home-content{
-        width: 100%;
-        
+        width: 100%!important;
+        display: flex;
+        justify-content: center;       
     }
     .home-content h1{
         width: 100%;
-        font-size: 2.5rem;
+        font-size: 10vw;
     }
 
     .home-content p{
         padding-top:1rem ;
         text-align: center!important;
+         font-size: 6vw!important;
     }
 
     .home-img{
-        display: flex;
-        justify-content: center;
+        display: flex!important;
+        justify-content: center!important;
         padding: 0px!important;
         margin: 0px!important;
         width: 10%;
@@ -97,5 +105,9 @@ i:hover{
         object-fit: cover;
         padding: 0px!important;
         margin: 0px!important;
+    }
+
+    .typing-text{
+        width: 100%!important;
     }
 }

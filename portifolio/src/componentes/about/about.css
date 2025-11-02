@@ -30,6 +30,7 @@
   position: relative;
   top: -8rem;
   left: 7rem;
+  transition: 2s;
 }
 .content-image .img-1:hover{
   border: 5px solid #e83939;
@@ -37,8 +38,12 @@
 }
 .content-image .img-3{
   position: relative;
-  
   left: 3rem;
+}
+
+.content-image .img-3:hover{
+  border: 5px solid #e83939;
+  
 }
 
 
@@ -68,4 +73,15 @@
   user-select: none;
 }
 
+@media (max-width: 768px) {
+  .content-text{
+    width: 100%!important;
+  }
+  .about-text{
+    width: 100%!important;
+    font-size: 3vh!important;
+  }
+  
+} 
+  
 
