@@ -7,4 +7,4 @@ export default function ContactCard({icon, title, local}) {
             <p>{local}</p> 
         </div> 
     )
-}
+}   
