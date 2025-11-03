@@ -1,10 +1,12 @@
   import './navbar.css'
   import { Navbar as BootstrapNavbar, Container, Nav } from 'react-bootstrap';
   import { HashLink } from 'react-router-hash-link';
+  import FadeSection from "../fade/fade";
 
 export default function Navbar() {
   return (
-    <BootstrapNavbar expand="lg" bg="transparent" className="principal px-5">
+    <FadeSection>
+      <BootstrapNavbar expand="lg" bg="transparent" className="principal px-5">
       <Container fluid className="d-flex justify-content-between align-items-center">
         <BootstrapNavbar.Brand as={HashLink} to="/#home">
           Mateus <span className="last-name">Gonçalves</span>
@@ -23,6 +25,8 @@ export default function Navbar() {
           </Nav>
         </BootstrapNavbar.Collapse>
       </Container>
-    </BootstrapNavbar>
+      </BootstrapNavbar>
+    </FadeSection>
+    
 )
 }
