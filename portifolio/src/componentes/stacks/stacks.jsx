@@ -8,14 +8,27 @@ export default function Stacks(){
             icon={<i class="bi bi-globe2"></i>}
             title={'Frontend'} 
             tech={[
-            <Tech/>,
-            <Tech/>,
-            <Tech/>,
-            <Tech/>,
-            <Tech/>,
-            <Tech/>
+            <Tech name={'HTML'}/>,
+            <Tech name={'CSS'}/>,
+            <Tech name={'Bootstrap'}/>,
+            <Tech name={'Javascript'}/>,
+            <Tech name={'Typescript'}/>,
+            <Tech name={'React'}/>
             ]}
              />
+             <Tool
+             icon={<i class="bi bi-gear-wide"></i>}
+             title={'Backend'}
+             />
+             <Tool
+             icon={<i class="bi bi-database"></i>}
+             title={'Banco de dados'}
+             />
+             <Tool
+             icon={<i class="bi bi-clipboard-data"></i>}
+             title={'Dados e IA'}
+             />
+             
         </section>
     )
 }
