@@ -4,10 +4,10 @@
 }
 
 .grid-container{
-    display: grid; /* ativa o grid */
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
-    grid-gap: 10px; /* espaço entre linhas e colunas */
-    padding: 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(150px, max-content));
+    grid-gap: 10px;
 }
 
 .item {
