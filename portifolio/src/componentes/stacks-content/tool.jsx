@@ -7,7 +7,7 @@ export default function Tool({ icon , title, tech }){
             <h1 className='text-white d-flex align-items-center '>{title}</h1>
           </div>
           
-          <div className='d-flex'>{tech}</div>
+          <div className='grid-container'>{tech}</div>
         </div>
     )   
 }

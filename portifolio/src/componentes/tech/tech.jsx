@@ -1,3 +1,4 @@
+import './tech.css'
 export default function Tech({stack , name} ){
   return(
     <div className="tech">

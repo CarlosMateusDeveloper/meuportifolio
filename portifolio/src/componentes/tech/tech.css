@@ -1,5 +1,5 @@
 .tech{
-    background: rgb(25, 0, 0);
+    background: linear-gradient(45deg, rgb(45, 0, 0), rgb(55, 1, 1)) ;
     width: 150px;
     height: 100px;
 }
