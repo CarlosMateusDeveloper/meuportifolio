@@ -1,0 +1,5 @@
+.tool{
+    max-width: 40%;
+    background: linear-gradient(45deg, rgb(25, 0, 0), rgb(235, 41, 41), );
+    min-height: 40vh;
+}
