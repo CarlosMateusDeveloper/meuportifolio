@@ -26,16 +26,25 @@ export default function Stacks(){
             ]}
              />
              <Tool
-             icon={<i class="bi bi-gear-wide"></i>}
-             title={'Backend'}
-             />
-             <Tool
              icon={<i class="bi bi-database"></i>}
-             title={'Banco de dados'}
+             title={'Backend e Banco de dados'}
+             tech={[
+                <Tech stack={<i class="devicon-mysql-plain-wordmark"></i>}/>,
+                <Tech stack={<i class="devicon-nodejs-plain-wordmark colored"></i>}/>,
+                <Tech stack={<i class="devicon-postgresql-plain-wordmark colored"></i>}/>,
+                <Tech stack={<i class="devicon-docker-plain-wordmark colored"></i>}/>,
+             ]}
              />
              <Tool
              icon={<i class="bi bi-clipboard-data"></i>}
              title={'Dados e IA'}
+             tech={[
+                <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />} />,
+                <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />}/>,
+                <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg" />}/>,
+                <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" />}/>,
+                <Tech stack={<i class="devicon-fastapi-plain-wordmark"></i>}/>
+             ]}
              />    
             </div> 
             

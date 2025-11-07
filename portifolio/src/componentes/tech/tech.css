@@ -1,5 +1,17 @@
 .tech{
-    background: linear-gradient(45deg, rgb(45, 0, 0), rgb(55, 1, 1)) ;
     width: 150px;
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tech i{
+    font-size: 3rem;
+}
+
+.tech img{
+    font-size: 3rem;
 }
