@@ -9,7 +9,7 @@ export default function Contact() {
                 <div className='pe-5 d-flex flex-column flex-wrap'>
                     <div className='d-flex flex-row flex-wrap'>
                         <div className="col-12 col-md-6 "> 
-                            <Contactcard icon={"bi bi-geo-alt-fill"} title={"Localização"} local={"Natal, RN - Brasil"}/>         
+                            <Contactcard icon={"bi bi-geo-alt-fill"} title={"Localização"} local={"Natal, RN - Brasil"} />         
                         </div>
                         <div className="col-12 col-md-6 ">
                             <Contactcard icon={"bi bi-telephone-fill"} title={"Telefone"} local={"+55 84 99203-9516"}/>

@@ -77,7 +77,7 @@ i:hover{
     .home-content{
         width: 100%!important;
         display: flex;
-        justify-content: center;       
+        justify-content: center;  
     }
     .home-content h1{
         width: 100%;
@@ -93,8 +93,8 @@ i:hover{
     .home-img{
         display: flex!important;
         justify-content: center!important;
-        padding: 0px!important;
-        margin: 0px!important;
+        padding: 100px 0px 0px 0px!important;
+        margin:  0px!important;
         width: 10%;
     }
 
