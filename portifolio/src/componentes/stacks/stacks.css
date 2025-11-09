@@ -7,7 +7,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat( 2, 40%);
-    width: 100%;
+    max-width: 100%;
     grid-gap: 20px;
     
 }
@@ -17,5 +17,11 @@
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
+}
+
+@media (max-width: 768px){
+  .grid-container {
+    grid-template-columns: 1fr; /* vira uma coluna só */
+  }
 }
 

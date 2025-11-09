@@ -10,7 +10,7 @@ export default function Stacks(){
             icon={<i class="bi bi-globe2"></i>}
             title={'Frontend'} 
             tech={[
-            <Tech stack={
+                <Tech stack={
             <i className='devicon-html5-plain colored'></i>} 
             name={'HTML'}/>,
             <Tech stack={<i class="devicon-css3-plain colored"></i>}
@@ -45,10 +45,7 @@ export default function Stacks(){
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" />}/>,
                 <Tech stack={<i className='data-icon fastapi devicon-fastapi-plain-wordmark'></i>}/>,
                 <Tech stack={<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg' />}/>
-            
-          
-             ]}
-             />    
+             ]}/>    
             </div> 
             
              
