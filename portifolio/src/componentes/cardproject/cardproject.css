@@ -1,4 +1,4 @@
-.card{
+.my-card{
     background-color: transparent;
     border: 3px solid #9e2525;
     backdrop-filter: blur(10px);
@@ -9,11 +9,16 @@
     min-width: 250px;
     height: 35vh;
     margin-bottom: 30px;
+    overflow: visible; 
 }
 
-.card:hover{
+.my-card:hover{
     transform: scale(1.05); 
     box-shadow: 0 0 20px #9e2525, 0 0 20px #9e2525, 0 0 30px #9e2525;
+}
+
+.my-card .card-content{
+    width: 3000px!important;
 }
 
 .btn{
