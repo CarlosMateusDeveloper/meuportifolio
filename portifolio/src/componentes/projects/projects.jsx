@@ -5,7 +5,7 @@ import CardProject from '../cardproject/cardproject'
 export default function Projects() {
     return (
         <section className='project d-flex flex-column justify-content-center align-items-center pt-5 pb-5' id='projects'>
-            <div className='container d-flex flex-column justify-content-center align-items-center text-center'>
+            <div className='container reveal d-flex flex-column justify-content-center align-items-center text-center'>
                 <h1 className='text-white mb-5'>Projects</h1>
                 <div className="row ">
                     <div className="col-12 col-md-6 col-lg-4">

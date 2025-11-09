@@ -2,8 +2,8 @@ import './Maindiv.css'
 import perfil from '../../assets/fotoportifolio.jpg'
 export default function Maindiv() {
   return ( 
-  <section className="home d-flex flex-row align-items-center justify-content-center container-fluid pe-5" id="home">       
-        <div className="home-content d-fex flex-column  mb-5 pe-5">
+  <section className="home  d-flex flex-row align-items-center justify-content-center container-fluid pe-5" id="home">       
+        <div className="home-content reveal d-fex flex-column  mb-5 pe-5">
          <h1 className='text-end '><span>Mateus Gonçalves</span> </h1>  
          <h3 className="typing-text text-end">Desenvolvedor de Software</h3>
          <p className='text-secondary fs-5 text-end ms-auto w-75 '>Desenvolvimento de soluções de software com foco em performance, escalabilidade e design intuitivo. Especialista em React, Node.js e python  para criar aplicações web que impulsionam resultados.</p>
@@ -13,6 +13,6 @@ export default function Maindiv() {
             <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/dev_carlos_mateus" target="_blank"><i class="bi bi-instagram text-danger btn-hover"></i></a>
           </  div> 
         </div>
-        <div className="home-img me-5 pe-5 mb-5 "> <img className='rounded-circle' src={perfil} alt=""/></div>
+        <div className="home-img reveal me-5 pe-5 mb-5 "> <img className='rounded-circle' src={perfil} alt=""/></div>
       </section>)
 }

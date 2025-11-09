@@ -7,8 +7,13 @@ import Projects from '../componentes/projects/projects.jsx'
 import Contact from '../componentes/contact/contact.jsx'
 import Footer from '../componentes/footer/footer.jsx'
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { initScrollReveal } from '../utils/scroll/scroll.jsx';   
+import { useEffect } from 'react'; 
 
 export default function Home() {
+    useEffect(() => {
+        initScrollReveal();
+      }, []);
     return (
         <>
             <Navbar />

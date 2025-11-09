@@ -3,15 +3,14 @@ import Tool from '../stacks-content/tool'
 import Tech from '../tech/tech'
 export default function Stacks(){
     return(
-        <section  className='' id='stacks'>
-            <h1 className='text-white text-center p-5 '>Tecnologias</h1> 
-            <div className='grid-container'>
+        <section  className='stacks' id='stacks'>
+            <h1 className='text-white text-center p-5 reveal'>Tecnologias</h1> 
+            <div className='grid-container reveal'>
             <Tool className='d-flex flex-wrap' 
             icon={<i class="bi bi-globe2"></i>}
             title={'Frontend'} 
             tech={[
-                <Tech stack={
-            <i className='devicon-html5-plain colored'></i>} 
+                <Tech stack={<i className='devicon-html5-plain colored'></i>} 
             name={'HTML'}/>,
             <Tech stack={<i class="devicon-css3-plain colored"></i>}
             name={'CSS'}/>,
@@ -23,6 +22,7 @@ export default function Stacks(){
             name={'Typescript'}/>,
             <Tech stack={<i class="devicon-react-original colored"></i>} 
             name={'React'}/>
+            
             ]}
              />
              <Tool
@@ -33,6 +33,7 @@ export default function Stacks(){
                 <Tech stack={<i className="back-icon devicon-postgresql-plain-wordmark colored"></i>}/>,
                 <Tech stack={<i className="back-icon devicon-nodejs-plain-wordmark colored"></i>}/>,
                 <Tech stack={<i className="back-icon devicon-docker-plain-wordmark colored"></i>}/>,
+                <Tech stack={<i class="devicon-git-plain-wordmark colored"></i>}/>
              ]}
              />
              <Tool
