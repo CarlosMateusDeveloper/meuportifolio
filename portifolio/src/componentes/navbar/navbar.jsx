@@ -13,9 +13,9 @@ export default function Navbar() {
         <BootstrapNavbar.Toggle aria-controls="navbar-nav" />
         <BootstrapNavbar.Collapse id="navbar-nav">
           <Nav className=" nav ms-auto me-5 d-flex gap-3 align-items-center">
-            <Nav.Link as={HashLink} to="/ia">
+            {/* <Nav.Link as={HashLink} to="/ia">
               <img src="/ai-svgrepo-com.svg" alt="" />
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link as={HashLink} to="/#about">Sobre mim</Nav.Link>
             <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
             <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
