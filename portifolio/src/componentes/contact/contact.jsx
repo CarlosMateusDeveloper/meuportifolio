@@ -3,10 +3,10 @@ import './contact.css'
 import Contactcard from '../contact-card/contact-card.jsx'
 export default function Contact() {
     return (
-        <section className="contact d-flex flex-column justify-content-center align-itens-center" id='contact'>
-            <h1 className='text-center reveal text-white pb-3'>Contate-me</h1>
+        <section className="contact d-flex flex-column justify-content-center align-itens-center align-content-center pb-5 pb-md-0" id='contact'>
+            <h1 className='text-center reveal text-white pb-3 pt-5 pt-md-0'>Contate-me</h1>
             <div className='reveal d-flex flex-row justify-content-center align-items-center flex-wrap'>
-                <div className='pe-5 d-flex flex-column flex-wrap'>
+                <div className='pe-0 pe-md-5 d-flex flex-column justify-content-center flex-wrap'>
                     <div className='d-flex flex-row flex-wrap'>
                         <div className="col-12 col-md-6 "> 
                             <Contactcard icon={"bi bi-geo-alt-fill"} title={"Localização"} local={"Natal, RN - Brasil"} />         
@@ -16,10 +16,8 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className='d-flex flex-row'>
-                        <div className="">
-                            <div className="col-12 col-md-6 text-white ">
-                                <Contactcard icon={"bi bi-envelope-fill"} title={"Email"} local={"mateusdev33@gmail.com"}/>
-                            </div>
+                        <div className="col-12 col-md-6 text-white ">
+                            <Contactcard icon={"bi bi-envelope-fill"} title={"Email"} local={"mateusdev33@gmail.com"}/>
                         </div>
                     </div>
                 </div>
