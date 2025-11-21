@@ -3,10 +3,10 @@ import CardProject from '../cardproject/cardproject'
 
 export default function Projects() {
     return (
-        <section className='project d-flex flex-column justify-content-center align-items-center pt-5 pb-5' id='projects'>
-            <div className='container reveal d-flex flex-column justify-content-center align-items-center text-center'>
+        <section className='project d-flex flex-column justify-content-center align-items-center py-5' id='projects'>
+            <div className='container reveal d-flex flex-column justify-content-around align-items-center text-center'>
                 <h1 className='text-white mb-5'>Meus Projetos</h1>
-                <div className="row ">
+                <div className='d-flex flex-row gap-3'>
                     <div className="col-12 col-md-6 col-lg-4">
                         {/*Card 1*/}
                        <CardProject 
@@ -28,6 +28,8 @@ export default function Projects() {
                        title="Projeto 3"
                        link=""/>
                     </div>
+                </div>
+                <div className='d-flex flex-row gap-3'>
                     <div className='col-12 col-md-6 col-lg-4'>
                         {/*Card 4*/}
                         <CardProject 
@@ -49,7 +51,9 @@ export default function Projects() {
                        title="Projeto 6"
                        link=""/>    
                     </div>
-                </div>       
+                </div>
+                    
+                       
             </div> 
             
         </section>
